@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/mmdb/.nvm/versions/node/v8.11.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add mongodb-stitch-sdk
+
+PATH: 
+  /Users/mmdb/dev/meta/google/cloud-sdk/bin:/Users/mmdb/.nvm/versions/node/v8.11.0/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home:/Users/mmdb/dev/code/bin:/usr/local/opt/go/libexec/bin:/Users/mmdb/dev/meta/mongodb/stitch
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongodb-stitch-sdk: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:129541:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130513:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
